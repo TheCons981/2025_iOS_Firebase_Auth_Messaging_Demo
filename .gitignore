@@ -1,0 +1,86 @@
+# Xcode
+#
+# gitignore template for Swift, SwiftUI, and general iOS/macOS projects
+
+# Xcode build artifacts and user settings
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+Xcdebugger/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+Breakpoints_v2.xcbkptlist
+Breakpoints.xcbkptlist
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+Carthage/DerivedData/
+*.xcscmblueprint
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Xcode project files
+*.xcworkspace
+*.xcuserstate
+
+# iOS specific
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS specific
+*.app
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftUI previews
+*.xcpreview
+
+# User-specific files
+*.moved-aside
+*.swp
+*.swm
+*.tmp
+*.temp
+
+# IDEs
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Other
+.DS_Store
+.env
+
+GoogleService-Info.plist
+
+# Uncomment if including a LICENSE file
+#!LICENSE
+
+# Uncomment if including README.md
+#!README.md
